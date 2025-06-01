@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Project: Event Invite</title>
+    <style>
+        .lovey-dovey {
+            color: red;
+        }
+
+        #container {
+            width: 400px;
+            margin: auto;
+            font-family: Arial, sans-serif;
+            border: 1px solid rgb(145, 0, 0);
+            border-top: 10px solid red;
+            border-bottom: 10px solid red;
+            padding: 15px;
+        }
+        
+
+        #Code-Coffee-Workshop {
+            background: rgb(237, 220, 223);
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        #More-Info {
+            background: rgb(237, 220, 223);
+            width: 100%;
+            height: 180px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-top: 20px;
+            border: 2px dashed rgb(161, 161, 161);
+            padding: 6px;
+        }
+
+        #robot-male-2 {
+            width: 120px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            float: left;
+             border: 6px ridge red;
+        }
+
+        h1, h2, h3, h4 {
+            margin: 10px 0;}
+            
+            body {
+                font-family: cursive;
+            }
+            .photo-gallery {
+                background: rgb(204, 190, 192);
+            }
+            .photo {
+                width: 70px;
+                height: 100px;
+            }
+            
+        #hopper-jumping {
+            position: absolute;
+            top: 580px;
+            left: 140px;
+            z-index: 3;
+            width: 120px;
+            animation: jump 1.5s infinite ease-in-out;
+}
+
+        @keyframes jump {
+            0%, 100% {
+            transform: translateY(0);
+    }
+        50% {
+            transform: translateY(-40px);
+    }
+            
+        #creature {
+            position: absolute;
+            top: 100px;
+            left:12px;
+            z-index: 2;
+        }
+        
+    </style>
+</head>
+<body>
+<div id="container">
+
+    <div id="Code-Coffee-Workshop">
+        <h1>Code & Coffee <span class="lovey-dovey">Workshop</span></h1>
+        <h4>Want to learn the basics of web development over coffee and donuts? Join us for a beginner-friendly HTML & CSS coding session!</h4>
+    </div>
+
+    <div>
+        <p>📅 Date: May 5th, 2025</p>
+        <p>🕒 Time: 10:00 AM – 1:00 PM</p>
+        <p>📍 Location: CodeSpace, Birmingham</p>
+        <h3>[RSVP] <span class="lovey-dovey">Now</span></h3>
+
+        <div class="photo-gallery">
+            <img class="photo" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/space/1.png">
+            <img class="photo" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/space/2.png">
+            <img class="photo" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/space/3.png">
+            <img class="photo" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/space/rocketship.png">
+        </div>
+
+        <p>You’re welcome to bring an interested friend along — just let me know in advance!</p>
+    </div>
+
+    <div id="planet-container">
+        <img id="hopper-jumping" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/creatures/Hopper-Jumping.png" width="120">
+        
+        <div>
+            <h3><span class="lovey-dovey">Welcome to CodeSpam!</span></h3>
+            <img id="creature" src="https://www.kasandbox.org/programming-images/avatars/mr-pink.png">
+        </div>
+    </div>
+
+    <div id="More-Info">
+        <h2>More <span class="lovey-dovey">Info</span></h2>
+        <p>
+            <img id="robot-male-2" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/robot_male_2.png" alt="Robot Avatar">
+            If you have any questions, need further details, or would like to discuss the event/training/session in advance, please feel free to get in touch.
+            <br><br>
+            Hosted by: Elmugiera Hafazalla<br>
+            Email: wer23hfres1@gmail.com<br>
+            Phone: 06452 9748232 (available weekdays, 9am–5pm)<br><br>
+            You're welcome to reach out via email or phone. I’ll respond as soon as possible.
+        </p>
+    </div>
+
+    <p>Read more on <a href="http://CodeSpam.org">CodeSpam</a>.</p>
+
+</div>
+</body>
+</html>
